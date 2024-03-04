@@ -140,7 +140,7 @@ export default function Footer() {
               to="https://t.me/mehmonov_husniddin"
               className="hover:underline"
             >
-              Xichtima™
+              Collect™
             </Link>
             . Barcha huquqlar himoyalangan.
             <div className="flex items-center justify-center gap-2 text-xs text-foreground/80">
