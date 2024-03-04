@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SignUp from "../Auth/SignUp";
+import SignUpButton from "../Auth/SignUpButton";
 
 export default function Header() {
   return (
@@ -24,7 +24,7 @@ export default function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 "
+                  className="block px-4 py-2 text-white rounded-lg hover:bg-gray-900"
                   aria-current="page"
                 >
                   Home
@@ -33,7 +33,7 @@ export default function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 "
+                  className="block px-4 py-2 text-white rounded-lg hover:bg-gray-900"
                 >
                   Services
                 </Link>
@@ -41,7 +41,7 @@ export default function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 "
+                  className="block px-4 py-2 text-white rounded-lg hover:bg-gray-900"
                 >
                   Pricing
                 </Link>
@@ -49,7 +49,7 @@ export default function Header() {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 md:p-0 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 "
+                  className="block px-4 py-2 text-white rounded-lg hover:bg-gray-900"
                 >
                   Contact
                 </Link>
@@ -57,10 +57,11 @@ export default function Header() {
             </ul>
           </div>
           <div>
-            <SignUp />
+            <SignUpButton />
           </div>
         </div>
       </nav>
+      <hr />
     </>
   );
 }
