@@ -6,7 +6,7 @@ export default function SignUpButton() {
     <>
       <Link
         to="login"
-        className="inline-flex items-center text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl   font-medium rounded-lg text-sm px-6 py-3 text-center me-2 mb-2"
+        className="inline-flex items-center bg-white text-gray-800 font-medium rounded-lg text-sm px-6 py-3 text-center "
       >
         Kirish
         <svg
