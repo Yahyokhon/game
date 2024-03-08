@@ -5,7 +5,7 @@ export default function SignUpButton() {
   return (
     <>
       <Link
-        to="login"
+        to="signup"
         className="inline-flex items-center bg-white text-gray-800 font-medium rounded-lg text-sm px-6 py-3 text-center "
       >
         Kirish
