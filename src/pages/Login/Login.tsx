@@ -6,7 +6,7 @@ export default function Login() {
       <section>
         <div className="flex justify-center items-center px-6 pt-24">
           <div className="w-full rounded-lg shadow border  sm:max-w-md  border-gray-700">
-            <div className="px-6 xs:py-[6.65rem] sm:py-[6.65rem] md:py-[5.82rem] lg:py-[2.45rem]  space-y-4 md:space-y-6 sm:p-8">
+            <div className="p-6  space-y-4 md:space-y-6 sm:p-8">
               <h1 className="text-3xl font-bold leading-tight tracking-tight  md:text-2xl text-white">
                 Akkaunt Yaratish
               </h1>
