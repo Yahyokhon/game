@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-    <div className="xs:py-[1rem] sm:py-[3.74rem] md:py-[3.37rem] lg:py-[3.37rem]">
       <section>
-        <div className="flex flex-col items-center justify-center px-6  mx-auto ">
-          <div className="w-full rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0 bg-gray-800 border-gray-700">
-            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-              <h1 className="text-xl font-bold leading-tight tracking-tight  md:text-2xl text-white">
+        <div className="flex justify-center items-center px-6 pt-24">
+          <div className="w-full rounded-lg shadow border  sm:max-w-md  border-gray-700">
+            <div className="px-6 xs:py-[6.65rem] sm:py-[6.65rem] md:py-[5.82rem] lg:py-[2.45rem]  space-y-4 md:space-y-6 sm:p-8">
+              <h1 className="text-3xl font-bold leading-tight tracking-tight  md:text-2xl text-white">
                 Akkaunt Yaratish
               </h1>
               <form className="space-y-4 md:space-y-6" action="#">
@@ -62,6 +61,5 @@ export default function Login() {
           </div>
         </div>
       </section>
-    </div>
   );
 }

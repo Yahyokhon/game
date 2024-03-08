@@ -7,14 +7,13 @@ import Login from "./pages/Login/Login";
 
 export default function App() {
   return (
-    <div className="bg-gray-800 text-white">
+    <div className="min-h-screen bg-gray-800 text-white">
       <Header />
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="login" element={<Login />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
