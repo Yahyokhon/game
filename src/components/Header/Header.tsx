@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="pt-24">
       <div>
-        <header className="bg-gray-800 border-b fixed top-0 w-full z-50">
+        <header className="bg-gray-800 border-b border-gray-700 fixed top-0 w-full z-50">
           <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
             <Link
               to="/"
