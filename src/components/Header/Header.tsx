@@ -17,41 +17,40 @@ export default function Header() {
               </span>
             </Link>
 
-            <ul className="hidden md:flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
-              <li>
-                <Link
-                  to="/"
-                  className="block px-4 py-2  rounded-lg  hover:bg-gray-900"
-                  aria-current="page"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
-                  className="block px-4 py-2  rounded-lg hover:bg-gray-900"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
-                  className="block px-4 py-2 rounded-lg hover:bg-gray-900"
-                >
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
-                  className="block px-4 py-2 rounded-lg hover:bg-gray-900"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
+            <form className="hidden  md:block lg:block xl:block md:w-5/12 lg:w-2/6 xl:w-2/6 mx-auto">
+              <label
+                htmlFor="default-search"
+                className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+              >
+                Search
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                  <svg
+                    className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  type="search"
+                  className="block w-[100%] border px-4 py-3 ps-10 text-sm outline-none rounded-md bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus-within:border-blue-500"
+                  placeholder="Search . . . "
+                  required
+                />
+              </div>
+            </form>
+
             <div>
               <SignUpButton />
             </div>
