@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function MainContentArea() {
   return (
     <div className=" text-white ml-64 p-5">
-      <div className="flex justify-around">
+      <div className="flex justify-around gap-8">
         <Link
           to="/create_topic"
           className="w-[250px] relative block text-center border rounded-lg shadow bg-gray-800 border-gray-700 "
